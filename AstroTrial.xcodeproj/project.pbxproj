@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E92945013C4E39500DB3910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E92944F13C4E39500DB3910 /* UIKit.framework */; };
+		0E92945213C4E39500DB3910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E92945113C4E39500DB3910 /* Foundation.framework */; };
+		0E92945413C4E39500DB3910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E92945313C4E39500DB3910 /* CoreGraphics.framework */; };
+		0E92945A13C4E39600DB3910 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E92945813C4E39600DB3910 /* InfoPlist.strings */; };
+		0E92945D13C4E39600DB3910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E92945C13C4E39600DB3910 /* main.m */; };
+		0E92946013C4E39600DB3910 /* AstroTrialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E92945F13C4E39600DB3910 /* AstroTrialAppDelegate.m */; };
+		0E92946313C4E39600DB3910 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E92946113C4E39600DB3910 /* MainWindow.xib */; };
+		0E92946613C4E39600DB3910 /* AstroTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E92946513C4E39600DB3910 /* AstroTrialViewController.m */; };
+		0E92946913C4E39600DB3910 /* AstroTrialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E92946713C4E39600DB3910 /* AstroTrialViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E92944B13C4E39500DB3910 /* AstroTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E92944F13C4E39500DB3910 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E92945113C4E39500DB3910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E92945313C4E39500DB3910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E92945713C4E39500DB3910 /* AstroTrial-Info.plist */ = {isa = PBXFileReference; path = "AstroTrial-Info.plist"; sourceTree = "<group>"; };
+		0E92945913C4E39600DB3910 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E92945B13C4E39600DB3910 /* AstroTrial-Prefix.pch */ = {isa = PBXFileReference; path = "AstroTrial-Prefix.pch"; sourceTree = "<group>"; };
+		0E92945C13C4E39600DB3910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E92945E13C4E39600DB3910 /* AstroTrialAppDelegate.h */ = {isa = PBXFileReference; path = AstroTrialAppDelegate.h; sourceTree = "<group>"; };
+		0E92945F13C4E39600DB3910 /* AstroTrialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroTrialAppDelegate.m; sourceTree = "<group>"; };
+		0E92946213C4E39600DB3910 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0E92946413C4E39600DB3910 /* AstroTrialViewController.h */ = {isa = PBXFileReference; path = AstroTrialViewController.h; sourceTree = "<group>"; };
+		0E92946513C4E39600DB3910 /* AstroTrialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroTrialViewController.m; sourceTree = "<group>"; };
+		0E92946813C4E39600DB3910 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AstroTrialViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E92944813C4E39500DB3910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E92945013C4E39500DB3910 /* UIKit.framework in Frameworks */,
+				0E92945213C4E39500DB3910 /* Foundation.framework in Frameworks */,
+				0E92945413C4E39500DB3910 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E92944013C4E39500DB3910 = {
+			isa = PBXGroup;
+			children = (
+				0E92945513C4E39500DB3910 /* AstroTrial */,
+				0E92944E13C4E39500DB3910 /* Frameworks */,
+				0E92944C13C4E39500DB3910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E92944C13C4E39500DB3910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E92944B13C4E39500DB3910 /* AstroTrial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E92944E13C4E39500DB3910 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E92944F13C4E39500DB3910 /* UIKit.framework */,
+				0E92945113C4E39500DB3910 /* Foundation.framework */,
+				0E92945313C4E39500DB3910 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E92945513C4E39500DB3910 /* AstroTrial */ = {
+			isa = PBXGroup;
+			children = (
+				0E92945E13C4E39600DB3910 /* AstroTrialAppDelegate.h */,
+				0E92945F13C4E39600DB3910 /* AstroTrialAppDelegate.m */,
+				0E92946113C4E39600DB3910 /* MainWindow.xib */,
+				0E92946413C4E39600DB3910 /* AstroTrialViewController.h */,
+				0E92946513C4E39600DB3910 /* AstroTrialViewController.m */,
+				0E92946713C4E39600DB3910 /* AstroTrialViewController.xib */,
+				0E92945613C4E39500DB3910 /* Supporting Files */,
+			);
+			path = AstroTrial;
+			sourceTree = "<group>";
+		};
+		0E92945613C4E39500DB3910 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E92945713C4E39500DB3910 /* AstroTrial-Info.plist */,
+				0E92945813C4E39600DB3910 /* InfoPlist.strings */,
+				0E92945B13C4E39600DB3910 /* AstroTrial-Prefix.pch */,
+				0E92945C13C4E39600DB3910 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E92944A13C4E39500DB3910 /* AstroTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E92946C13C4E39600DB3910 /* Build configuration list for PBXNativeTarget "AstroTrial" */;
+			buildPhases = (
+				0E92944713C4E39500DB3910 /* Sources */,
+				0E92944813C4E39500DB3910 /* Frameworks */,
+				0E92944913C4E39500DB3910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroTrial;
+			productName = AstroTrial;
+			productReference = 0E92944B13C4E39500DB3910 /* AstroTrial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E92944213C4E39500DB3910 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0E92944513C4E39500DB3910 /* Build configuration list for PBXProject "AstroTrial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E92944013C4E39500DB3910;
+			productRefGroup = 0E92944C13C4E39500DB3910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E92944A13C4E39500DB3910 /* AstroTrial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E92944913C4E39500DB3910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E92945A13C4E39600DB3910 /* InfoPlist.strings in Resources */,
+				0E92946313C4E39600DB3910 /* MainWindow.xib in Resources */,
+				0E92946913C4E39600DB3910 /* AstroTrialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E92944713C4E39500DB3910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E92945D13C4E39600DB3910 /* main.m in Sources */,
+				0E92946013C4E39600DB3910 /* AstroTrialAppDelegate.m in Sources */,
+				0E92946613C4E39600DB3910 /* AstroTrialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E92945813C4E39600DB3910 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E92945913C4E39600DB3910 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E92946113C4E39600DB3910 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E92946213C4E39600DB3910 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0E92946713C4E39600DB3910 /* AstroTrialViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E92946813C4E39600DB3910 /* en */,
+			);
+			name = AstroTrialViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E92946A13C4E39600DB3910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E92946B13C4E39600DB3910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0E92946D13C4E39600DB3910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroTrial/AstroTrial-Prefix.pch";
+				INFOPLIST_FILE = "AstroTrial/AstroTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E92946E13C4E39600DB3910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroTrial/AstroTrial-Prefix.pch";
+				INFOPLIST_FILE = "AstroTrial/AstroTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E92944513C4E39500DB3910 /* Build configuration list for PBXProject "AstroTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E92946A13C4E39600DB3910 /* Debug */,
+				0E92946B13C4E39600DB3910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E92946C13C4E39600DB3910 /* Build configuration list for PBXNativeTarget "AstroTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E92946D13C4E39600DB3910 /* Debug */,
+				0E92946E13C4E39600DB3910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E92944213C4E39500DB3910 /* Project object */;
+}
